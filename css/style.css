@@ -4,10 +4,10 @@ body{
     
 }
 .container{
-    max-width: 600px;
+    max-width: 700px;
     margin: 60px 0 auto;
     background: white;
-    padding: 30px;
+    padding: 70px;
     box-shadow:  rgba(100,100,111,0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 
@@ -23,6 +23,7 @@ select{
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: palevioletred
 }
 h2{
     margin: 0 0 5px;
