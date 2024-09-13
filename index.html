@@ -11,13 +11,15 @@
   <body>
     <div class="container">
     <h1>World clock</h1>
-    <select>
+    <select id="cities-selection">
     <option value="">select a city...</option>
-    <option value="">New york</option>
-    <option value="">Los Angeles</option>
-    <option value="">Tokyo</option>
+    <option value="Europe/London">London</option>
+    <option value="America/New_York">New York</option>
+    <option value="Asia/Tokyo">Tokyo</option>
 <option value="">Sydney</option>
     </select>
+    <div id="cities">
+    <div class="cities" >
     <div class="city" id="los-angels">
       <div>
       <h2>Los Angeles 🌅</h2>
@@ -31,6 +33,8 @@
       <div class="date"></div>
       </div>
       <div class="Time"><small>AM</small></div>
+    </div>
+    </div>
     </div>
       <footer>
       This project was coded by Michelle Lekoto and is
